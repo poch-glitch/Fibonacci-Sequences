@@ -9,5 +9,7 @@ main:
  	addi $v0, $0, 4  
     la $a0, askUser 
 	syscall 
+ 	addi $v0, $0, 5 
+	syscall 
 
 
