@@ -29,6 +29,9 @@ main:
  	addi, $v0, $0, 4 
 	la $a0, newline
 	syscall
+ recursiveStep:
+		add $t4, $t2, $t3 
+
  
  
 
