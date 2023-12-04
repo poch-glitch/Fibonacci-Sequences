@@ -31,6 +31,10 @@ main:
 	syscall
  recursiveStep:
 		add $t4, $t2, $t3 
+  		addi $v0, $0, 1  
+		move $a0, $t4 
+		syscall 
+  
 
  
  
