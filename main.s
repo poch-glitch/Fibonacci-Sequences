@@ -14,5 +14,8 @@ main:
  	syscall 
 	add $t0,$0, $v0 
 	blt $t0, 25, exitOnInvalid
+ 	addi $t1, $0, 2 
+	addi $t2, $0, 0
+ 
 
 
