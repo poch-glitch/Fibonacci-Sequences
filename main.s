@@ -37,6 +37,8 @@ main:
   		addi, $v0, $0, 4  
 		la $a0, newline 
 		syscall 
+  		move $t2, $t3 
+		move $t3, $t4 
   
 
  
