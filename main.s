@@ -16,6 +16,8 @@ main:
 	blt $t0, 25, exitOnInvalid
  	addi $t1, $0, 2 
 	addi $t2, $0, 0
+ 	addi $t3, $0, 1 
+ 	addi $v0, $0, 1  
  
 
 
