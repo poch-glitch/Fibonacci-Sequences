@@ -42,7 +42,11 @@ main:
   		addi $t1, $t1, 1 
 		bne $t1, $t0, recursiveStep 
   	addi $v0, $0, 10 
-	syscall  
+	syscall 
+exitOnInvalid: 
+	addi, $v0, $0, 4  
+	la $a0, invalid 
+	syscall 
 
   
   
