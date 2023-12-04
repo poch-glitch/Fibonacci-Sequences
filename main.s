@@ -17,7 +17,9 @@ main:
  	addi $t1, $0, 2 
 	addi $t2, $0, 0
  	addi $t3, $0, 1 
- 	addi $v0, $0, 1  
+ 	addi $v0, $0, 1 
+ 	move $a0, $t2 
+	syscall 
  
 
 
