@@ -20,6 +20,9 @@ main:
  	addi $v0, $0, 1 
  	move $a0, $t2 
 	syscall 
+ 	addi, $v0, $0, 4  
+	la $a0, newline 
+	syscall 
  
 
 
