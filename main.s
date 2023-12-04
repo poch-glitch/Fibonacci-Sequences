@@ -41,6 +41,9 @@ main:
 		move $t3, $t4 
   		addi $t1, $t1, 1 
 		bne $t1, $t0, recursiveStep 
+  	addi $v0, $0, 10 
+	syscall  
+
   
   
 
