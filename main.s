@@ -6,5 +6,8 @@
 .text
 main:
 	addi $v0, $0, 4  
+ 	addi $v0, $0, 4  
+    la $a0, askUser 
+	syscall 
 
 
